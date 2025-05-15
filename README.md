@@ -38,3 +38,4 @@ mvn clean test -Dtest=NegativeDashboardCreationTest
 ## Вывод результатов теста
 1. Перейти в директорию "target" проекта;
 2. В командной строке ввести команду __allure serve allure-results__
+3. Можно также не переходя в "target" ввести команду __allure serve target/allure-results__
